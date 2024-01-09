@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="{{asset('user/./plugins/chartist-plugin-tooltips/css/chartist-plugin-tooltip.css')}}">
     <!-- Custom Stylesheet -->
     <link href="{{asset('user/css/style.css')}}" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://unpkg.com/@majidh1/jalalidatepicker/dist/jalalidatepicker.min.css">
     <script type="text/javascript" src="https://unpkg.com/@majidh1/jalalidatepicker/dist/jalalidatepicker.min.js"></script>
 
@@ -118,6 +121,7 @@
     <!--**********************************
         Scripts
     ***********************************-->
+
     <script src="{{asset('user/plugins/common/common.min.js')}}"></script>
     <script src="{{asset('user/js/custom.min.js')}}"></script>
     <script src="{{asset('user/js/settings.js')}}"></script>
@@ -141,7 +145,6 @@
     <!-- ChartistJS -->
     <script src="{{asset('user/plugins/chartist/js/chartist.min.js')}}"></script>
     <script src="{{asset('user/plugins/chartist-plugin-tooltips/js/chartist-plugin-tooltip.min.js')}}"></script>
-
 
 
     <script src="{{asset('user/js/dashboard/dashboard-1.js')}}"></script>
