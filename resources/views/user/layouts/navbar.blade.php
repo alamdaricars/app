@@ -77,10 +77,10 @@
                         </div>
                     </div>
                 </li>
-                <li class="icons dropdown"><a href="javascript:void(0)" data-toggle="dropdown">
-                        <i class="mdi mdi-bell-outline"></i>
-                        <span class="badge badge-pill gradient-2">3</span>
-                    </a>
+{{--                <li class="icons dropdown"><a href="javascript:void(0)" data-toggle="dropdown">--}}
+{{--                        <i class="mdi mdi-bell-outline"></i>--}}
+{{--                        <span class="badge badge-pill gradient-2">3</span>--}}
+{{--                    </a>--}}
                     <div class="drop-down animated fadeIn dropdown-menu dropdown-notfication">
                         <div class="dropdown-content-heading d-flex justify-content-between">
                             <span class="">2 New Notifications</span>

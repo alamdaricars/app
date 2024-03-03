@@ -8130,10 +8130,16 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   top: 0.625rem; }
 
 .content-body {
+    font-family: "B Yekan";
+    align-items: center;
+    text-align: center;
   margin-left: 15.1875rem;
   z-index: 0; }
   @media only screen and (min-width: 1200px) and (max-width: 1350px) {
     .content-body {
+        font-family: "B Yekan";
+        align-items: center;
+        text-align: center;
       margin-left: 14.375rem; } }
 
 .nk-sidebar {

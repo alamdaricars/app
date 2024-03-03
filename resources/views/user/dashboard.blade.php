@@ -63,17 +63,7 @@
         </div>
     </div>
         </div>
-    @if($opinion)
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title" style="text-align: center">نظر کارشناس مربوطه</h5>
-                <h6 class="card-subtitle mb-2 text-muted"></h6>
-                <p class="card-text" style="text-align: center">{{$result->first()->Expert_opinion}}</p>
 
-
-            </div>
-        </div>
-    @endif
 @endif</div>
 
 @endsection

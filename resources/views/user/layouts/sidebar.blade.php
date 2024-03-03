@@ -13,7 +13,7 @@
                 </a>
                 <ul aria-expanded="false" class="collapse">
                     <li><a href="{{route('user.reservation_in-person')}}">نوبت مراجعه حضوری</a></li>
-                    <li><a href="{{route('user.onsite_service')}}">نوبت سرویس دوره ای در محل</a></li>
+                    <li><a href="#" onclick="alert('این بخش در حال راه اندازی میباشد')">نوبت سرویس دوره ای در محل</a></li>
 
 
 
@@ -45,11 +45,11 @@
                     <i class="icon-speedometer menu-icon"></i><span class="nav-text">مشخصات کاربری</span>
                 </a>
             </li>
-            <li>
-                <a href="widgets.html" aria-expanded="false">
-                    <i class="icon-speedometer menu-icon"></i><span class="nav-text">پشتیانی آنلاین</span>
-                </a>
-            </li>
+{{--            <li>--}}
+{{--                <a href="widgets.html" aria-expanded="false">--}}
+{{--                    <i class="icon-speedometer menu-icon"></i><span class="nav-text">پشتیانی آنلاین</span>--}}
+{{--                </a>--}}
+{{--            </li>--}}
             <li>
                 <a href="widgets.html" aria-expanded="false">
                     <i class="icon-speedometer menu-icon"></i><span class="nav-text">خروج</span>

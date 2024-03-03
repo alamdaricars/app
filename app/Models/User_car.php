@@ -9,6 +9,10 @@ class User_car extends Model
 {
     protected $table='user_car_details';
     protected $guarded=['id'];
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
     public function color(){
         switch ($this->attributes['color']){
 
