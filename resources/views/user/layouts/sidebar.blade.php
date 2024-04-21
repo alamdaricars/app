@@ -51,7 +51,7 @@
 {{--                </a>--}}
 {{--            </li>--}}
             <li>
-                <a href="widgets.html" aria-expanded="false">
+                <a href="{{route('user.logout')}}" aria-expanded="false">
                     <i class="icon-speedometer menu-icon"></i><span class="nav-text">خروج</span>
                 </a>
             </li>

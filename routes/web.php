@@ -14,7 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::group(['prefix' => 'user', 'namespace' => 'user'], function () {
+Route::get('/login_user','AuthController@index')->name('user.login');
+Route::post('/login_user/send_sms','AuthController@send_sms')->name('user.login.send_sms');
+Route::post('/login_user/validat_sms','AuthController@validate_sms')->name('user.login.validate_sms');
+Route::get('/logout_user','AuthController@logout')->name('user.logout');
+
+Route::group(['prefix' => 'user', 'namespace' => 'user' ,'middleware'=>'user'], function () {
     Route::get('/dashboard', 'dashboardController@index')->name('user.dashboard');
     Route::get('/reservation_in-person', 'TurnController@reservation_person')->name('user.reservation_in-person');
     Route::post('/reservation_in-person/store', 'TurnController@reservation_person_store')->name('user.reservation_person_store');
